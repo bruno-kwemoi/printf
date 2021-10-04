@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef PRINT_F
+#define PRINT_F
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -25,5 +25,6 @@ int print_string(va_list);
 int print_percent(va_list);
 int print_integer(va_list);
 int print_number(va_list);
+int print_binary(va_list);
 
 #endif
