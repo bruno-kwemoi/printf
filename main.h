@@ -1,5 +1,5 @@
-#ifndef PRINT_F
-#define PRINT_F
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -29,7 +29,6 @@ int print_integer(va_list);
 int print_number(va_list);
 int print_binary(va_list);
 int print_reversed(va_list arg);
-int rot13(va_list);
 int unsigned_integer(va_list);
 int print_octal(va_list list);
 int print_hex(va_list list);
